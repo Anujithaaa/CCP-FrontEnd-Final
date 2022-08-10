@@ -9,6 +9,20 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const users = () => {
 
+    const styles = {
+        section: {
+          fontSize: "18px",
+          color: "#292b2c",
+          backgroundColor: "#fff",
+          padding: "0 20px"
+        },
+        wrapper: {
+          textAlign: "center",
+          margin: "0 auto",
+          marginTop: "50px"
+        }
+      }
+
 
         
   return (
@@ -55,7 +69,7 @@ const users = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+            </Navbar>
 
             <br></br>
             <br></br>
@@ -65,14 +79,11 @@ const users = () => {
             <br></br>
             <br></br>
             <br></br>
-            <div className="row" style={{display:"flex"}}>
-              HI Chats
-              <div className="column" style={{float:"left", flex:"50%", padding:"10px", height:"300px", background:"gray"}}>
-                    Welcome
-              </div>
-              <div className="column" style={{float:"right", flex:"50%", padding:"10px", height:"300px", background:"gray"}}>
+            <div className="row" style={{display:""}}>
+              HI Chats  
+              {/* <div className="column" style={{float:"right", flex:"50%", padding:close"10px", height:"300px", background:"gray"}}>
                    QR
-              </div>
+              </div> */}
 
 
             </div>
