@@ -26,6 +26,7 @@ import Itemsold from './views/admin/side-pages/itemsold';
 import Orders from './views/admin/side-pages/orders';
 import Products from './views/admin/side-pages/products';
 import Users from './views/admin/side-pages/users';
+import Chat from './views/chat/chat';
 
 const Routers = () => {
     const { loggedIn } = useContext(AuthContext);
@@ -46,6 +47,8 @@ const Routers = () => {
             <Route exact path="/orders"><Orders /></Route>
             <Route exact path="/products"><Products /></Route>
             <Route exact path="/users"><Users /></Route>
+
+            <Route exact path="/chat"><Chat /></Route>
 
             {
                 loggedIn !== null && (<>
